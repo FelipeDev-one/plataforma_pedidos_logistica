@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:e2e:selenium": "node tests/selenium/login.e2e.js"
   },
   "dependencies": {
     "lucide-react": "^1.7.0",
@@ -19,8 +20,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "chromedriver": "^148.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
+    "selenium-webdriver": "^4.43.0",
     "typescript": "^5"
   }
 }
